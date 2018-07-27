@@ -1,7 +1,6 @@
  pragma solidity ^0.4.17;
  
  //Contract creation file
- 
  contract Lottery{
      
      address public manager;
@@ -24,7 +23,7 @@
      function pickWinner() public restricted{
          
          uint index = random() % players.length;
-         players[index].transfer(address(this).balance);
+         players[index].transfer(this.balance);
          players = new address[](0);
      }
      
