@@ -7,8 +7,8 @@ const { interface, bytecode } = require('./compile');
 // Setting up Provider 
 
 const provider = new HDWalletProvider(
-	'survey hospital fun huge vehicle quarter major purpose federal dolphin water black',
-	'https://rinkeby.infura.io/c37a4573e4874debb6aeca6f570638df');
+	'your 12 world mnemonic',
+	'infura api link');
 
 const web3 = new Web3(provider);
 
