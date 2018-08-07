@@ -70,7 +70,7 @@ describe('Lottery Contract',() =>{
 		}
 	});
 
-	it('only manager pickcing winner test', async () => {
+	it('only manager picking winner test', async () => {
 		try{
 			await lottery.methods.pickWinner().send({
 				from: accounts[1]
