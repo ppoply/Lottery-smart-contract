@@ -7,8 +7,7 @@ A simple lottery smart contract with the follwing features :
 - The lottery gets reset after a winner is picked.
 - Since Solidity doesn't have a random number generator library so a psuedo number generator has been defined which looks like this :
 #random_number = uint(keccak256(abi.encodePacked(block.difficulty, now, players)))
-
-Note : players is an array for storing addresses of all players participating in the lottery
-
+(players is an array for storing addresses of all players participating in the lottery)
+- Also the code for the React Web-app for the same lottery contract is available at: https://github.com/ppoply/Lottery-smart-contract-react-app
 
 
