@@ -10,4 +10,4 @@ A simple lottery smart contract with the follwing features :
 (players is an array for storing addresses of all players participating in the lottery)
 - Also the code for the React Web-app for the same lottery contract is available at: https://github.com/ppoply/Lottery-smart-contract-react-app
 
-<strong> Note : This whole project is part of Udemy's "Ethereum and Solidity: The Complete Developer's Guide" course by Stephen Grider.</strong
+<strong> Note : This whole project is part of Udemy's "Ethereum and Solidity: The Complete Developer's Guide" course by Stephen Grider.</strong>
